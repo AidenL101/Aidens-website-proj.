@@ -1,0 +1,42 @@
+body {
+    /* font for text */
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* color of text */
+    color: white;
+    margin: 0; 
+
+    background-color: green;
+}  
+img {
+    float: none;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+ .container {
+    display: block;
+    padding-top: 5rem;
+} 
+
+
+
+nav {
+ /* position: fixed means never moves on the screen */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: .75rem;
+    background-color: #69cfff;
+    z-index: 1000000000;
+} 
+
+ nav li {
+    display: inline-block;
+    margin-right: 3rem;
+} 
+p {
+    display: block;
+}
