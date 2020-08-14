@@ -1,6 +1,6 @@
 body {
     /* font for text */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
     /* color of text */
     color: black ;
@@ -12,8 +12,8 @@ body {
 }  
 img {
     float: none;
-    width:  200px;
-    height: 200px;
+    width:  500px;
+    height: 500px;
     object-fit: cover;
 }
 
@@ -30,7 +30,7 @@ img {
 .background::after {
     content: "";
     background-image: url(../Images/Background.jpg);
-    opacity: 0.04;
+    opacity: 0.3;
     top: 0;
     left: 0;
     bottom: 0;
@@ -58,5 +58,6 @@ nav {
 p {
     display: block;
     font-size: 20px;
+
 }
 
