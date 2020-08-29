@@ -5,10 +5,7 @@ body {
     /* color of text */
     color: black ;
     margin: 0; 
-
-    background-image: url(../Images/Background.jpg);
-
-   
+    
 }  
 img {
     float: none;
@@ -28,7 +25,7 @@ img {
 .background::after {
     content: "";
     background-image: url(../Images/Background.jpg);
-    opacity: 0.3;
+    opacity: 0.5;
     top: 0;
     left: 0;
     bottom: 0;
